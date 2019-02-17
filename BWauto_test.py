@@ -27,3 +27,26 @@ selfpath = "D:\wyl"
 
 print(os.__file__)
 print(__file__)
+
+def true(): return True
+lambda: True
+
+def add(x, y):
+    return x + y
+
+# print(add(3,5))
+
+# def add(x,y):return x+y
+# print(lambda x,y : x+y)
+
+lambda x : x<=(month, day)
+def func1(x):
+    return x<=(month, day)
+
+lambda item : item[1]
+def func2(item):
+    return item[1]
+adict = {'a':'aa', 'b':'bb'}
+
+for i in adict.items():
+    print(func2(i))
